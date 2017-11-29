@@ -21,7 +21,7 @@ class Eigmesh : public Mesh
 {
 public:
 	Eigmesh(std::string klist) : Mesh(klist) {
-		m_eig.reserve(wedge());
+		m_eig.reserve(size());
 	}
 	
 	eV eigenvalue(int mesh_point_index, int band_index) {

@@ -46,8 +46,8 @@ public:
 
 	Eigen::Vector3d point(int index) { return m_points[index]; }
 	int weight(int index) { return m_weights[index]; }
-	int wedge() { return m_points.size(); }
-	int full() { return std::accumulate(m_weights.begin(), m_weights.end(), 0); }
+	int size() { return m_points.size(); }
+	int norm() { return std::accumulate(m_weights.begin(), m_weights.end(), 0); }
 
 private:
 	std::vector<Eigen::Vector3d> m_points;

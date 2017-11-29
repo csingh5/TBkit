@@ -2,6 +2,8 @@
 //                                                                           //
 //                          *** main.cpp ***                                 //
 //                                                                           //
+//  This file is inteded for testing purposes of the TBkit                   //
+//                                                                           //
 ///////////////////////////////////////////////////////////////////////////////
 
 
